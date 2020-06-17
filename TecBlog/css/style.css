@@ -19,13 +19,14 @@ body {
     text-align: center;
 }
 
-#area-logo, #area-menu {
-    padding: 10px;
-}
 
 /*
 **** Formatação Menu ****
 */
+#area-logo, #area-menu {
+    padding: 10px;
+}
+
 a {
     text-decoration: none;
 }
@@ -49,4 +50,43 @@ h1 {
 
 .branco {
     color: white;
+}
+
+#area-principal{
+    width: 920px;
+    margin: 0 auto;
+}
+
+#area-esqueda, #area-direita {
+    background: orange;
+}
+
+#area-esqueda {
+    width: 660px;
+    float: left;
+}
+
+#area-direita {
+    width: 240px;
+    float: right;
+}
+
+.img-post {
+    width: 620px;
+}
+.post {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+#footer {
+    clear: both;
+    width: auto;
+    margin: 0 ;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    background: #4e4e4e;
 }
